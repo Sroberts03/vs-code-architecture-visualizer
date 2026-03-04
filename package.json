@@ -1,5 +1,5 @@
 {
-  "name": "architecture-vizualizer",
+  "name": "vs-code-architecture-vizualizer",
   "displayName": "Architecture_Vizualizer",
   "description": "This is a personal project that is aiming to allow devs to be able to vizualize endpoints in backend code.",
   "version": "0.0.1",
@@ -10,11 +10,11 @@
     "Other"
   ],
   "activationEvents": [],
-  "main": "./out/extension.js",
+  "main": "./out/main.js",
   "contributes": {
     "commands": [
       {
-        "command": "architecture-vizualizer.helloWorld",
+        "command": "vs-code-architecture-vizualizer.helloWorld",
         "title": "Hello World"
       }
     ]
